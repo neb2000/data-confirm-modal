@@ -163,11 +163,11 @@
     });
 
     var commit = modal.find('.commit');
-    commit.text(options.commit || settings.commit);
+    commit.html(options.commit || settings.commit);
     commit.addClass(options.commitClass || settings.commitClass);
 
     var cancel = modal.find('.cancel');
-    cancel.text(options.cancel || settings.cancel);
+    cancel.html(options.cancel || settings.cancel);
     cancel.addClass(options.cancelClass || settings.cancelClass);
 
     if (options.remote) {

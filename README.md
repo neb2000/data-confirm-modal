@@ -14,7 +14,7 @@ certain value, for extra willingness confirmation (inspired by GitHub's
 
 Add this line to your application's Gemfile:
 
-    gem 'data-confirm-modal', github: 'ifad/data-confirm-modal'
+    gem 'data-confirm-modal', github: 'neb2000/data-confirm-modal'
 
 if you are stuck on Bootstrap 2.3, use the `bootstrap2` branch:
 
@@ -108,22 +108,3 @@ can be passed either via JavaScript or through data attributes.
 or
 
      <a href="#" data-confirm="Really?" data-backdrop="static" data-keyboard="false">
-
-## Authors
-
-* Marcello Barnaba ([@vjt](https://github.com/vjt))
-* LLeir Borras Metje ([@lleirborras](https://github.com/lleirborras))
-* The Open Source [World](https://github.com/ifad/data-confirm-modal/graphs/contributors)
-
-## Background
-
-Spinned off a corporate [IFAD](http://github.com/ifad/) application in which
-an user did too much damage because the confirm wasn't *THAT* explicit ... ;-).
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
